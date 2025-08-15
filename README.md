@@ -7,10 +7,6 @@ This project presents two complementary approaches to valuing companies using th
 1. **Fundamental Single-Company Valuation** - A deep-dive manual analysis in Excel of REA Group Limited (ASX\:REA), integrating financial statement forecasting, WACC estimation, and sensitivity analysis.
 2. **Automated Multi-Firm Valuation** - A scalable Python pipeline that sources financial data from Yahoo Finance, applies normalised DCF models, and conducts cross-sectional valuation.
 
-It is designed to demonstrate both the **rigour of traditional fundamental analysis** and the **efficiency of automated financial data engineering**.
-
----
-
 ## Project Structure
 
 ### **Part 1 - Fundamental Valuation (REA.ASX)**
@@ -24,8 +20,6 @@ A detailed, single-company valuation of **REA Group Limited**, applying advanced
 * **Bottom-Up Beta Estimation** - Deriving beta from industry peer comparisons, adjusted for REA’s capital structure.
 * **Weighted Average Cost of Capital (WACC)** - Calculation using cost of equity (CAPM) and after-tax cost of debt.
 * **Growth & DCF Calculation** - Projecting free cash flows, estimating terminal value, and discounting to present value to determine intrinsic value.
-
----
 
 ### **Part 2 - Automated Multi-Firm Valuation**
 
